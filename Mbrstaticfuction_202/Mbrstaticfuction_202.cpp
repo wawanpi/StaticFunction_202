@@ -42,7 +42,7 @@ int main() {
 	mhs3.printAll();
 	mhs4.printAll();
 
-	
+	cout << "Akses Dari Luar Object = " << mahasiswa::getNim() << endl;	//mengakses nim melalui statoc member funtion "getNim"
 
 	return 0;
 }
