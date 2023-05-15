@@ -8,4 +8,12 @@ private:
 public:
 	angka(int);	//Constructor
 	angka();	//Destructor
-	
+	void cetakData();
+	void isiData();
+};
+//Defenisi member Function
+angka::angka(int i) {	//Constructor
+	panjang = i;
+	arr = new int[i];
+	isiData();
+}
