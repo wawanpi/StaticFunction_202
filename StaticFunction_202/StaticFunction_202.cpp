@@ -24,3 +24,17 @@ void mahasiswa::printALL() {
 	cout << " Nama =" << nama << endl;
 	cout << endl;
 }
+
+int main() {
+	mahasiswa mhs1("Lia Kurnia");
+	mahasiswa mhs2("Asroni");
+	mahasiswa mhs3("Andi Kurnia");
+	mahasiswa mhs4("Joko Purbo");
+
+	mhs1.printALL();
+	mhs2.printALL();
+	mhs3.printALL();
+	mhs4.printALL();
+
+	return 0;
+}
